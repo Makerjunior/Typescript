@@ -1,0 +1,25 @@
+"use strict";
+let num = 40.9;
+let estado = true;
+let nome = "Mente Maker";
+let nomes = ["Junior", "Manu", "Rapha"];
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var Cores;
+(function (Cores) {
+    Cores["Vermelho"] = "#ff0000";
+    Cores["Azul"] = "#0000ff";
+    Cores["Amarelo"] = "ffff00";
+})(Cores || (Cores = {}));
+let vermelho = Cores.Vermelho;
+let carros = { rodas: 4, ano: "1990", dono: "Junior" };
+//console.log(carros);
+let n1 = null;
+let n2 = undefined;
+let n3 = null;
+let dados;
+dados = 20;
+console.log(dados);
+dados = "Junior";
+console.log(dados);
+dados = false;
+console.log(dados);
