@@ -233,4 +233,3 @@ Agora você tem uma visão completa sobre o laço `while` e `do...while`, suas d
 
 --- 
 
-Se você quiser ajustar algum detalhe ou incluir mais exemplos, posso ajudar!

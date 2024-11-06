@@ -192,5 +192,3 @@ const idade = obterValor(pessoa, "idade");  // Saída: 28
 - Estude o uso de **Generics avançados** com o TypeScript, como em **tipos mapeados** e **unions**.
 
 ---
-
-Isso conclui nossa aula sobre **Generics**! Se você tiver dúvidas ou quiser ver mais exemplos práticos, estou à disposição para ajudar!

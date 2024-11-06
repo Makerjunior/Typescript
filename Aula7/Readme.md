@@ -233,4 +233,3 @@ console.log(Calculadora.multiplicar(5, 3));  // Saída: 15
 
 ---
 
-Isso conclui nossa aula sobre **Classes e Objetos**. Se precisar de mais exemplos ou quiser explorar algum tópico em mais detalhes, estou à disposição!

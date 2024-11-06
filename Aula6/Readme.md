@@ -204,4 +204,3 @@ exibirElemento([1, 2, 3]);   // Saída: [1, 2, 3]
 
 ---
 
-Isso conclui nossa aula sobre
