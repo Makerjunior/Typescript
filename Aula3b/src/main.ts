@@ -30,7 +30,7 @@ switch (color) {
     console.log("Cor desconhecida");
 }
 
-
+let fruit: string = "banana";
 switch (fruit) {
     case "maçã":
     case "banana":
