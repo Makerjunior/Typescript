@@ -1,13 +1,42 @@
+let day: number = 3;
 
-let pontos:number = 78;
-if(pontos >= 90){
-    console.log("O aluno recebe = A");
-}else if(pontos >= 80 ){
-    console.log("O aluno recebe = B"); 
-} else {
- //  console.log("O aluno tem menos de 80 pontos");
+switch (day) {
+  case 1:
+    console.log("Domingo");
+    break;
+  case 2:
+    console.log("Segunda-feira");
+    break;
+  case 3:
+    console.log("Terça-feira");
+    break;
+  default:
+    console.log("Dia inválido");
 }
 
-let idade:number = 16;
-let res:string = idade >= 18 ? "Maior de idade" : "Menor de idade";
-console.log(res);
+let color: string = "azul";
+
+switch (color) {
+  case "vermelho":
+    console.log("A cor é vermelho");
+    break;
+  case "azul":
+    console.log("A cor é azul");
+    break;
+  case "verde":
+    console.log("A cor é verde");
+    break;
+  default:
+    console.log("Cor desconhecida");
+}
+
+
+switch (fruit) {
+    case "maçã":
+    case "banana":
+    case "laranja":
+      console.log("Fruta disponível");
+      break;
+    default:
+      console.log("Fruta não disponível");
+  }
