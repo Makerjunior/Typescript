@@ -1,22 +1,34 @@
 "use strict";
-let nota = 50;
-if (nota >= 90) {
-    console.log("O aluno recebe = A");
+// Run: deno run src/main.ts
+function alerta() {
+    console.log('Programa em execução');
 }
-else if (nota >= 80) {
-    console.log("O aluno recebe = B");
+alerta();
+function somar() {
+    return 10 + 20;
 }
-else if (nota >= 70) {
-    console.log("O alauno recebe = C");
+let resultado = somar();
+console.log(resultado);
+function subtrair(a, b) {
+    return a - b;
+}
+let resultado2 = subtrair(20, 10);
+console.log(resultado2);
+// Criando um array de objetos do tipo Pessoa
+const pessoas = [
+    { id: 1, nome: 'João', idade: 25 },
+    { id: 2, nome: 'Maria', idade: 30 },
+    { id: 3, nome: 'Pedro', idade: 22 },
+];
+// Função para buscar uma pessoa pelo id
+function buscarPessoa(id) {
+    return pessoas.find(pessoa => pessoa.id === id);
+}
+// Exemplo de uso
+const pessoaBuscada = buscarPessoa(2);
+if (pessoaBuscada) {
+    console.log(`Pessoa encontrada: ${pessoaBuscada.nome}, ${pessoaBuscada.idade} anos.`);
 }
 else {
-    console.log(" O aluno foi reprovado");
+    console.log('Pessoa não encontrada.');
 }
-let idade = 20;
-let res = idade >= 18 ? "Maior de idade" : "Menor de idade";
-console.log(res);
-console.log("Tudo certo");
-if (idade == 20) {
-    console.log(idade);
-}
-console.log("Vamos ver");
