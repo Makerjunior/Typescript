@@ -1,3 +1,6 @@
+
+
+
 // Laço `for` - Somando os números de um array
 const numeros = [1, 2, 3, 4, 5];
 let soma = 0;
@@ -59,4 +62,3 @@ console.log("\nLaço 'for...of' (valores):");
 for (let value of array) {
     console.log(value);  // Saída: 10, 20, 30
 }
-

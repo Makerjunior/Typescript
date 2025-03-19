@@ -1,3 +1,4 @@
+
 Aula focada no laço **`while`** e suas variações, como o **`do...while`**, explicando sua sintaxe, funcionamento e boas práticas com exemplos práticos em TypeScript.
 
 ---
@@ -232,4 +233,3 @@ Neste exemplo:
 Agora você tem uma visão completa sobre o laço `while` e `do...while`, suas diferenças e quando usar cada um. Teste-os em situações práticas para dominar a estrutura de loops em TypeScript!
 
 --- 
-

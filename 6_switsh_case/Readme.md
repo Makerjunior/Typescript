@@ -1,3 +1,5 @@
+
+
 # Aula sobre **`switch` case** em TypeScript
 
 O **`switch`** é uma estrutura de controle usada para executar diferentes partes de código com base em uma expressão. Ela pode ser mais eficiente que uma série de **`if`** e **`else if`**, especialmente quando temos várias condições possíveis para uma mesma variável.

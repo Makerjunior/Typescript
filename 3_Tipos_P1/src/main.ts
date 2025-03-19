@@ -34,14 +34,6 @@ if ((usr == "Junior") && ( senha == 1234)) {
 console.log( estado);
 
 
-/*
-if ((v1 == v2) || (x1 == x2)) {
-    console.log("Verdadeiro");
-}
-else {
-    console.log("Falso");
-}
-*/
 
 
 
